@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+venv/
+.env
+.DS_Store
+node_modules/
+.gemini/
+backend.log
+frontend.log
+temp_uploads/
+temp_outputs/
