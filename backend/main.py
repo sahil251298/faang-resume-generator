@@ -8,6 +8,9 @@ load_dotenv()
 
 app = FastAPI(title="FAANG Resume Generator")
 
+print("Backend starting... checking for static files")
+
+
 # CORS Middleware
 app.add_middleware(
     CORSMiddleware,
